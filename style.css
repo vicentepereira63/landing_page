@@ -109,3 +109,63 @@ body {
   .box{
     width: 150px;
   }
+  .quote-container {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .quote-box {
+  margin: 100px;
+  margin-bottom: 0px;
+  width: 800px;
+  }
+  .quote {
+    color: #1f2937;
+    font-style:italic;
+    font-size: 36px;
+    display: flex;
+  flex-direction: column;
+  align-self: center;
+  }
+  .quote-signature {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    font-size: 36px;
+  }
+  .sign-container{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sign-box {
+    background-color: #3882f6 ;
+    height: 120px;
+    border-radius: 10px;
+    width: 700px;
+    color: #E5E7EB;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 50px;
+  }
+  .sign-title {
+    font-size: 20px
+  }
+  .sign-text-left {
+    width: 500px;
+  }
+  .sign-up {
+    background-color: #3882f6;
+    border: #E5E7EB solid 2px;
+    border-radius: 6px;
+    width: 80px;
+    height: 25px;
+    color: #E5E7EB;
+  }
